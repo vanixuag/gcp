@@ -20,7 +20,7 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=$_FUNCTION_RUNTIME
-  - --project=$_FUNCTION_PROJECT
+ # - --project=$_FUNCTION_PROJECT
   - --entry-point=$_ENTRY_POINT
   id: DEPLOY
 
