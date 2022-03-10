@@ -20,13 +20,13 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=$_FUNCTION_RUNTIME
-  - --project=$_FUNCTION_PROJECT
+  #- --project=$_FUNCTION_PROJECT
   - --entry-point=$_ENTRY_POINT
   id: DEPLOY
 
 substitutions:
-    _FUNCTION_PROJECT : astahov-prod
-    _FUNCTION_NAME    : my-nodejs-app
-    _FUNCTION_REGION  : northamerica-northeast1
+    _FUNCTION_PROJECT : managmend
+    _FUNCTION_NAME    : my-donejs-app
+    _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs14
     _ENTRY_POINT      : helloWorld
