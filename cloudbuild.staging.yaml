@@ -25,7 +25,7 @@ steps:
   id: DEPLOY
 
 substitutions:
-    _FUNCTION_PROJECT : vanix-staging
+    _FUNCTION_PROJECT : managment
     _FUNCTION_NAME    : my-nodejs-app
     _FUNCTION_REGION  : my-app-push
     _FUNCTION_RUNTIME : nodejs16
