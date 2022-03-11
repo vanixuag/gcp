@@ -25,7 +25,7 @@ steps:
   id: DEPLOY
 
 substitutions:
-    _FUNCTION_PROJECT : managmend
+    _FUNCTION_PROJECT : PROD
     _FUNCTION_NAME    : my-donejs-app
     _FUNCTION_REGION  : us-central1
     _FUNCTION_RUNTIME : nodejs14
